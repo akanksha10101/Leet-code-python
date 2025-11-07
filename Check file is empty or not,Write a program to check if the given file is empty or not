@@ -1,0 +1,7 @@
+import os
+s=os.stat("File.csv").st_size
+
+ if size==0:
+ print("file is empty")
+ else:
+ print("file is not empty")
