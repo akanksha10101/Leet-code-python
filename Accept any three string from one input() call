@@ -1,0 +1,3 @@
+user_input_string = input("Enter a string: ")  # Get string input from the user
+list_of_words = user_input_string.split()  # Split the string into a list of words
+print(list_of_words) 
