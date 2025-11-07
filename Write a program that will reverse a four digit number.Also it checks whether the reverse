@@ -1,0 +1,7 @@
+n=input("ENter the number")
+if not n.isdigit() or len(n) != 4:
+    print("Invalid input. Please enter a valid 4-digit number.")
+
+else:
+   digits=str(n)
+   sum1= sum(int(digit) for digit in digits)
