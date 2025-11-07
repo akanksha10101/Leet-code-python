@@ -1,0 +1,5 @@
+l=[]
+while len(l)<5:
+   i=float(input("Enter number"))
+   l.append(i)
+print(l)
