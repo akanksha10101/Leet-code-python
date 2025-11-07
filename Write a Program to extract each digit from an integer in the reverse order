@@ -1,0 +1,4 @@
+n=int(input("enter number:"))
+y=n[::-1]
+k=" ".join(y)
+print(k)
